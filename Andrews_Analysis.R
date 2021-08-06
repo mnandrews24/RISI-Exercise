@@ -1,4 +1,4 @@
-###SET WORKING DIRECTORY TO DATA FOLDER BEFORE RUNNING SCRIPT###
+###SET WORKING DIRECTORY TO DATA FOLDER (the one with all the CSV's) BEFORE RUNNING SCRIPT###
 
 #Activate libraries
 library (tidyverse)
@@ -29,6 +29,8 @@ massive$population <- as.numeric(as.character(massive$population)) #convert pop 
 
 
 ### Chart 1
+
+##To Do:
 #Separate out my age groups
 #Teen = 10-19
 #Young Adult = 20-34
@@ -95,6 +97,8 @@ ggplot(mergedAges, aes(y = newRate, x = time_period, group = ageCat)) +
 ## reorder legend to reflect order of lines in chart
 
 ### Chart 2
+
+##To Do:
 #Separate out my age groups again
 #Teen = 10-19
 #Young Adult = 20-34
